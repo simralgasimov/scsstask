@@ -1,0 +1,174 @@
+$buttonColor: #bc8afc @import
+  url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+.container {
+  @media screen and (max-width: 1024px) {
+    padding: 19px 40px 30px 41px;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 19px 16px 25px 26px;
+  }
+
+  background: linear-gradient(144deg, #190422 21.1%, #190422 102.96%);
+  padding: 17px 82px 110px 82px;
+
+  .logo {
+    h1 {
+      @media screen and (max-width: 1024px) {
+        width: 105px;
+        font-size: 40.24px;
+      }
+      @media screen and (max-width: 768px) {
+      }
+      width: 167px;
+      color: #fff;
+      font-family: Poppins;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+    ul {
+      @media screen and (max-width: 1024px) {
+        display: none;
+      }
+      display: flex;
+      text-decoration: none;
+      li {
+        list-style-type: none;
+        margin-left: 30px;
+        a {
+          color: #ffffff;
+          font-family: Poppins;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+    button {
+      @media screen and (max-width: 1024px) {
+        display: none;
+      }
+      border: none;
+      width: 132px;
+      height: 58px;
+      border-radius: 7px;
+      background: $buttonColor;
+      box-shadow: 10px 7px 9px 0px rgba(0, 0, 0, 0.25);
+      a {
+        color: #000;
+        font-family: Poppins;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+    .mobilMenu {
+      @media screen and (max-width: 1024px) {
+        display: block;
+        width: 40px;
+        height: 40px;
+      }
+      display: none;
+    }
+  }
+  .cartBox {
+    @media screen and (max-width: 768px) {
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 36px;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    .textBox {
+      h2 {
+        @media screen and (max-width: 1024) {
+          width: 370px;
+          font-size: 48px;
+        }
+        @media screen and (max-width: 768) {
+          width: 359px;
+          font-size: 48px;
+        }
+        margin-top: 189px;
+        margin-bottom: 32px;
+        width: 631px;
+        color: #fff;
+        font-family: Poppins;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; /* 96px */
+      }
+      p {
+        @media screen and (max-width: 1024px) {
+          width: 370px;
+          font-size: 20px;
+        }
+        @media screen and (max-width: 768) {
+          width: 359px;
+          font-size: 20px;
+        }
+        margin-bottom: 32px;
+        width: 628px;
+        color: #fff;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 158%; /* 31.6px */
+      }
+      button {
+        border-radius: 7px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 212px;
+        height: 58px;
+        flex-shrink: 0;
+        background-color: $buttonColor;
+        a {
+          color: #000;
+          font-family: Poppins;
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+    }
+    .imageBox {
+      img {
+        @media screen and (max-width: 1024px) {
+          width: 358px;
+          height: 454.266px;
+        }
+
+        width: 500px;
+        height: 677px;
+      }
+    }
+  }
+}
