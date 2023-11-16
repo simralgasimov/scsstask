@@ -1,13 +1,7 @@
 $buttonColor: #bc8afc ;
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style-type: none;
-}
+
 .container {
   @media screen and (max-width: 1024px) {
     padding: 19px 40px 30px 41px;
@@ -45,12 +39,14 @@ $buttonColor: #bc8afc ;
     ul {
       @media screen and (max-width: 1024px) {
         display: none;
+          list-style-type: none;
       }
       display: flex;
       text-decoration: none;
       li {
         list-style-type: none;
         margin-left: 30px;
+       
         a {
           color: #ffffff;
           font-family: Poppins;
@@ -58,12 +54,14 @@ $buttonColor: #bc8afc ;
           font-style: normal;
           font-weight: 400;
           line-height: normal;
+          text-decoration: none;
         }
       }
     }
     button {
       @media screen and (max-width: 1024px) {
         display: none;
+        
       }
       border: none;
       width: 132px;
@@ -78,6 +76,7 @@ $buttonColor: #bc8afc ;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
+        text-decoration: none;
       }
     }
     .mobilMenu {
@@ -141,6 +140,7 @@ $buttonColor: #bc8afc ;
         line-height: 158%; /* 31.6px */
       }
       button {
+        
         border-radius: 7px;
         border: none;
         display: flex;
@@ -150,7 +150,9 @@ $buttonColor: #bc8afc ;
         height: 58px;
         flex-shrink: 0;
         background-color: $buttonColor;
+       
         a {
+          text-decoration: none;
           color: #000;
           font-family: Poppins;
           font-size: 22px;
@@ -163,7 +165,7 @@ $buttonColor: #bc8afc ;
     .imageBox {
       img {
         @media screen and (max-width: 1024px) {
-          width: 358px;
+          width: 335px;
           height: 454.266px;
         }
 

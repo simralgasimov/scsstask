@@ -1,12 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style-type: none;
-}
-
 .container {
   background: linear-gradient(144deg, #190422 21.1%, #190422 102.96%);
   padding: 17px 82px 110px 82px;
@@ -23,7 +15,7 @@
 }
 .container .logo h1 {
   width: 167px;
-  color: #FFF;
+  color: #fff;
   font-family: Poppins;
   font-size: 64px;
   font-style: normal;
@@ -49,6 +41,7 @@
 @media screen and (max-width: 1024px) {
   .container .navbar ul {
     display: none;
+    list-style-type: none;
   }
 }
 .container .navbar ul li {
@@ -62,13 +55,14 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-decoration: none;
 }
 .container .navbar button {
   border: none;
   width: 132px;
   height: 58px;
   border-radius: 7px;
-  background: #BC8AFC;
+  background: #bc8afc;
   box-shadow: 10px 7px 9px 0px rgba(0, 0, 0, 0.25);
 }
 @media screen and (max-width: 1024px) {
@@ -83,6 +77,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  text-decoration: none;
 }
 .container .navbar .mobilMenu {
   display: none;
@@ -113,7 +108,7 @@
   margin-top: 189px;
   margin-bottom: 32px;
   width: 631px;
-  color: #FFF;
+  color: #fff;
   font-family: Poppins;
   font-size: 80px;
   font-style: normal;
@@ -135,7 +130,7 @@
 .container .cartBox .textBox p {
   margin-bottom: 32px;
   width: 628px;
-  color: #FFF;
+  color: #fff;
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
@@ -163,9 +158,10 @@
   width: 212px;
   height: 58px;
   flex-shrink: 0;
-  background-color: #BC8AFC;
+  background-color: #bc8afc;
 }
 .container .cartBox .textBox button a {
+  text-decoration: none;
   color: #000;
   font-family: Poppins;
   font-size: 22px;
@@ -179,7 +175,7 @@
 }
 @media screen and (max-width: 1024px) {
   .container .cartBox .imageBox img {
-    width: 358px;
+    width: 335px;
     height: 454.266px;
   }
 }/*# sourceMappingURL=index.css.map */
