@@ -111,7 +111,7 @@ $buttonColor: #bc8afc ;
       h2 {
        
         margin-bottom: 32px;
-       
+        width: 631px;
         color: #fff;
         font-family: Poppins;
         font-size: 80px;
@@ -130,7 +130,7 @@ $buttonColor: #bc8afc ;
       }
       p {
         margin-bottom: 32px;
-    
+        width: 628px;
         color: #fff;
         font-family: Poppins;
         font-size: 20px;
@@ -171,10 +171,6 @@ $buttonColor: #bc8afc ;
         width: 590px;
         height: 677px;
         @media screen and (max-width: 1024px) {
-          width: 500px;
-          height: 500px;
-        }
-        @media screen and (max-width: 1300px) {
           width: 335px;
           height: 454.266px;
         }
