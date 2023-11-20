@@ -4,7 +4,7 @@ $buttonColor: #bc8afc ;
 
 .container {
   background: linear-gradient(144deg, #190422 21.1%, #190422 102.96%);
-  padding: 17px 21px 110px 82px;
+  padding: 17px 82px 110px 82px;
   @media screen and (max-width: 1024px) {
     padding: 19px 40px 30px 41px;
   }
@@ -95,7 +95,7 @@ $buttonColor: #bc8afc ;
       display: none;
     }
   }
-  main {
+  .main {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -109,28 +109,28 @@ $buttonColor: #bc8afc ;
 
     .textBox {
       h2 {
-       
+        margin-top: 189px;
         margin-bottom: 32px;
-       
+        width: 631px;
         color: #fff;
         font-family: Poppins;
         font-size: 80px;
         font-style: normal;
         font-weight: 600;
         line-height: 120%; /* 96px */
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1024) {
           width: 370px;
           font-size: 48px;
         }
-        @media screen and (max-width: 768px) {
-          width: 100%;
+        @media screen and (max-width: 768) {
+          width: 359px;
           font-size: 48px;
         }
        
       }
       p {
         margin-bottom: 32px;
-    
+        width: 628px;
         color: #fff;
         font-family: Poppins;
         font-size: 20px;
@@ -141,8 +141,8 @@ $buttonColor: #bc8afc ;
           width: 370px;
           font-size: 20px;
         }
-        @media screen and (max-width: 768px) {
-          width: 100%;
+        @media screen and (max-width: 768) {
+          width: 359px;
           font-size: 20px;
         }
 
@@ -168,20 +168,14 @@ $buttonColor: #bc8afc ;
     }
     .imageBox {
       img {
-        width: 590px;
-        height: 677px;
         @media screen and (max-width: 1024px) {
-          width: 500px;
-          height: 500px;
-        }
-        @media screen and (max-width: 1300px) {
           width: 335px;
           height: 454.266px;
         }
-@media screen and (max-width:768px) {
-  width: 336.255px;
-  height: 381.415px;
+
+        width: 500px;
+        height: 677px;
+      }
     }
   }
 }
-}}
