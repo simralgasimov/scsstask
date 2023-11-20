@@ -184,4 +184,117 @@ $buttonColor: #bc8afc ;
     }
   }
 }
+}
+
+}
+.container-finance{
+  .finance{
+   
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul{
+     margin-top: 27px;
+      
+      padding: 51px 162px 47px 147px;
+      width: 85%;
+  height: 200px;
+  flex-shrink: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 16px;
+  background: #FFF;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+  li{
+    
+    color: #1F262E;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+  span{
+    color: #BC8AFC;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+  p{
+    color: #1F262E;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+    }
+    
+  
+  }
+  .finance-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    img{
+      width: 565px;
+height: 732px;
+
+    }
+   .text-box{
+ 
+    h3{
+      margin-bottom: 16px;
+      width: 611px;
+      color: #000;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 122.5%; 
+
+   } 
+   p{
+    margin-bottom: 16px;  
+    width: 571px;
+    color: #000;
+
+
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 158%; /* 31.6px */
+   }
+   button {
+    img{
+      width: 33px;
+height: 33px;
+    }
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 212px;
+    height: 58px;
+    background-color: $buttonColor;
+   
+    a {
+      color: #000;
+      font-family: Poppins;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+}
 }}
+    
