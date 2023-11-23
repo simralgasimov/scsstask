@@ -191,10 +191,10 @@ $buttonColor: #bc8afc ;
   .finance{
    
     position: relative;
-    bottom: 100px;
+    bottom: 90px;
     display: flex;
     justify-content: center;
-    align-items: center;
+   
     ul{
      margin-top: 27px;
       
@@ -238,6 +238,7 @@ $buttonColor: #bc8afc ;
   
   }
   .finance-text{
+    padding: 50px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -298,3 +299,5 @@ height: 33px;
 }
 }}
     
+
+

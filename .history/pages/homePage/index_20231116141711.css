@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap");
+.container {
+  background: linear-gradient(144deg, #190422 21.1%, #190422 102.96%);
+  padding: 17px 82px 110px 82px;
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 19px 40px 30px 41px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 19px 16px 25px 26px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container .logo h1 {
+    /* width: 105px; */
+    font-size: 40.24px;
+  }
+}
+.container .logo h1 span {
+  color: white;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.container .navbar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.container .navbar ul {
+  display: flex;
+  text-decoration: none;
+}
+@media screen and (max-width: 1024px) {
+  .container .navbar ul {
+    display: none;
+    list-style-type: none;
+  }
+}
+.container .navbar ul li {
+  list-style-type: none;
+  margin-left: 30px;
+}
+.container .navbar ul li a {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+.container .navbar button {
+  border: none;
+  width: 132px;
+  height: 58px;
+  border-radius: 7px;
+  background: #bc8afc;
+  box-shadow: 10px 7px 9px 0px rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width: 1024px) {
+  .container .navbar button {
+    display: none;
+  }
+}
+.container .navbar button a {
+  color: #000;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+.container .navbar .mobilMenu {
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+  .container .navbar .mobilMenu {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+}
+.container .cartBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .container .cartBox {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+  }
+}
+.container .cartBox .textBox h2 {
+  margin-top: 189px;
+  margin-bottom: 32px;
+  width: 631px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 96px */
+}
+@media screen and (max-width: 1024) {
+  .container .cartBox .textBox h2 {
+    width: 370px;
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 768) {
+  .container .cartBox .textBox h2 {
+    width: 359px;
+    font-size: 48px;
+  }
+}
+.container .cartBox .textBox p {
+  margin-bottom: 32px;
+  width: 628px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158%; /* 31.6px */
+}
+@media screen and (max-width: 1024px) {
+  .container .cartBox .textBox p {
+    width: 370px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768) {
+  .container .cartBox .textBox p {
+    width: 359px;
+    font-size: 20px;
+  }
+}
+.container .cartBox .textBox button {
+  border-radius: 7px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 212px;
+  height: 58px;
+  flex-shrink: 0;
+  background-color: #bc8afc;
+}
+.container .cartBox .textBox button a {
+  text-decoration: none;
+  color: #000;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container .cartBox .imageBox img {
+  width: 500px;
+  height: 677px;
+}
+@media screen and (max-width: 1024px) {
+  .container .cartBox .imageBox img {
+    width: 335px;
+    height: 454.266px;
+  }
+}/*# sourceMappingURL=index_20231116141711.css.map */
