@@ -2,7 +2,6 @@
 .container {
   padding: 24px 186px 22px 72px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 @media screen and (max-width: 1204px) {
@@ -13,6 +12,14 @@
 @media screen and (max-width: 768px) {
   .container {
     padding: 40px 19px 23px 19px;
+  }
+}
+.container .user-photo {
+  margin-right: 92px;
+}
+@media screen and (max-width: 768px) {
+  .container .user-photo {
+    margin-right: 0;
   }
 }
 .container .user-photo img {
