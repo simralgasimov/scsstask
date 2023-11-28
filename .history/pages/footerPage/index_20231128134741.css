@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap");
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 72px 80px 58px 82px;
+  border: 1.025px solid #757575;
+  background: #190422;
+  min-height: 100vh;
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 72px 40px 63px 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 32px 16px 42px 15px;
+    flex-direction: column;
+  }
+}
+.container .left-box .logo img {
+  margin-bottom: 26px;
+  width: 167px;
+}
+@media screen and (max-width: 1024px) {
+  .container .left-box .logo img {
+    width: 105px;
+    margin-bottom: 32px;
+  }
+}
+.container .left-box ul {
+  margin-bottom: 43px;
+  display: flex;
+}
+@media screen and (max-width: 1024px) {
+  .container .left-box ul {
+    margin-bottom: 64px;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container .left-box ul {
+    margin-bottom: 32px;
+  }
+}
+.container .left-box ul li {
+  margin-inline-end: 33px;
+}
+@media screen and (max-width: 1024px) {
+  .container .left-box ul li {
+    margin-bottom: 33px;
+  }
+}
+.container .left-box ul li a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media screen and (max-width: 1024px) {
+  .container .left-box ul li a {
+    width: 110px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container .left-box .social-logo {
+    display: none;
+  }
+}
+.container .left-box .social-logo img {
+  width: 32px;
+  height: 37px;
+  margin-inline-end: 21px;
+}
+.container .right-box h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container .right-box form {
+  margin-bottom: 70px;
+}
+.container .right-box form label {
+  height: 69.013px;
+}
+.container .right-box form input {
+  width: 410.06px;
+  height: 69px;
+  border-radius: 6.441px;
+  background: #fff;
+  padding: 10px;
+  outline: none;
+}
+.container .right-box button {
+  width: 130.429px;
+  height: 67px;
+  border-radius: 7px;
+  background: #bc8afc;
+  box-shadow: 10px 7px 9px 0px rgba(0, 0, 0, 0.25);
+  color: #000;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container .mobil-social {
+  display: none;
+}
+.container .mobil-social img {
+  width: 32px;
+  height: 37px;
+}
+@media screen and (max-width: 768px) {
+  .container .mobil-social img {
+    margin-inline-end: 21px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container .mobil-social {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container .mobil-social {
+    display: inline;
+  }
+}
+.container .app img {
+  width: 189.231px;
+  height: 60px;
+  margin-left: 24px;
+}
+@media screen and (max-width: 768px) {
+  .container .app img {
+    margin-left: 0px;
+    margin-top: 32px;
+  }
+}

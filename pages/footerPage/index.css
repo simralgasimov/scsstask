@@ -52,7 +52,7 @@
   }
 }
 .container .left-box ul li a {
-  color: #FFF;
+  color: #fff;
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
@@ -75,7 +75,7 @@
   margin-inline-end: 21px;
 }
 .container .right-box h1 {
-  color: #FFF;
+  color: #fff;
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
@@ -85,25 +85,30 @@
 .container .right-box form {
   margin-bottom: 70px;
 }
-.container .right-box form input {
-  width: 410.06px;
-  height: 69px;
+.container .right-box form label {
+  display: flex;
+  align-items: center;
+  height: 69.013px;
   border-radius: 6.441px;
   background: #FFF;
-  padding: 10px;
-  outline: none;
 }
-.container .right-box button {
-  position: relative;
-  right: 7px;
-  top: 3px;
+.container .right-box form label input {
+  width: 410.06px;
+  height: 100%;
+  border-radius: 6.441px;
+  background: #fff;
+  padding: 10px;
+  padding-right: 0;
+  outline: none;
+  border: none;
+}
+.container .right-box form label button {
   width: 130.429px;
-  height: 67px;
+  height: 100%;
   border-radius: 7px;
   background: #bc8afc;
   box-shadow: 10px 7px 9px 0px rgba(0, 0, 0, 0.25);
-}
-.container .right-box button a {
+  border: none;
   color: #000;
   font-family: Poppins;
   font-size: 22px;
@@ -143,4 +148,4 @@
     margin-left: 0px;
     margin-top: 32px;
   }
-}/*# sourceMappingURL=index.css.map */
+}
