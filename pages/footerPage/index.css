@@ -5,6 +5,7 @@
   padding: 72px 80px 58px 82px;
   border: 1.025px solid #757575;
   background: #190422;
+  min-height: 100vh;
 }
 @media screen and (max-width: 1024px) {
   .container {
@@ -89,10 +90,11 @@
   height: 69px;
   border-radius: 6.441px;
   background: #FFF;
+  padding: 10px;
 }
-.container .right-box form button {
+.container .right-box button {
   position: relative;
-  right: 50px;
+  right: 7px;
   top: 3px;
   width: 130.429px;
   height: 67px;
@@ -100,7 +102,7 @@
   background: #bc8afc;
   box-shadow: 10px 7px 9px 0px rgba(0, 0, 0, 0.25);
 }
-.container .right-box form button a {
+.container .right-box button a {
   color: #000;
   font-family: Poppins;
   font-size: 22px;
@@ -108,35 +110,35 @@
   font-weight: 500;
   line-height: normal;
 }
-.container .right-box .mobil-social {
+.container .mobil-social {
   display: none;
 }
-.container .right-box .mobil-social img {
+.container .mobil-social img {
   width: 32px;
   height: 37px;
 }
 @media screen and (max-width: 768px) {
-  .container .right-box .mobil-social img {
+  .container .mobil-social img {
     margin-inline-end: 21px;
   }
 }
 @media screen and (max-width: 1024px) {
-  .container .right-box .mobil-social {
+  .container .mobil-social {
     display: none;
   }
 }
 @media screen and (max-width: 768px) {
-  .container .right-box .mobil-social {
+  .container .mobil-social {
     display: inline;
   }
 }
-.container .right-box .app img {
+.container .app img {
   width: 189.231px;
   height: 60px;
   margin-left: 24px;
 }
 @media screen and (max-width: 768px) {
-  .container .right-box .app img {
+  .container .app img {
     margin-left: 0px;
     margin-top: 32px;
   }

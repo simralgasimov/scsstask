@@ -7,6 +7,7 @@
     padding: 72px 80px 58px 82px;
     border: 1.025px solid #757575;
 background: #190422;
+min-height: 100vh;
 @media screen and (max-width:1024px) {
     padding: 72px 40px 63px 40px;
     
@@ -107,13 +108,14 @@ line-height: normal;
             height: 69px;
             border-radius: 6.441px;
 background: #FFF;
-
+padding: 10px;
+}
 
         }
         
       button{
        position: relative;
-       right: 50px;
+       right: 7px;
        top: 3px;
         width: 130.429px;
         height: 67px;
@@ -171,4 +173,3 @@ margin-left: 24px;
    
 }
 
-}
