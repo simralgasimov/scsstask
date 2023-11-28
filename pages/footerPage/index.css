@@ -91,6 +91,7 @@
   border-radius: 6.441px;
   background: #FFF;
   padding: 10px;
+  outline: none;
 }
 .container .right-box button {
   position: relative;
